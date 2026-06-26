@@ -61,11 +61,12 @@ color:black;
 .hero{
 min-height:100vh;
 display:flex;
-justify-content:space-between;
+justify-content:center;
 align-items:center;
-padding:150px 80px;
+gap:40px;
+padding:120px 30px 60px;
+flex-wrap:wrap;
 }
-
 .hero img{
 width:420px;
 transition:.4s;
