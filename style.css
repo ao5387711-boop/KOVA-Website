@@ -340,9 +340,10 @@ padding:40px 20px;
 }
 .menuBtn{
 display:none;
-font-size:32px;
-cursor:pointer;
+font-size:34px;
 color:#d8c5a2;
+cursor:pointer;
+margin-left:auto;
 }
 
 @media(max-width:768px){
