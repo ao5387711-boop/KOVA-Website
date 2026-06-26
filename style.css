@@ -31,14 +31,7 @@ justify-content:space-between;
 
 padding:0 70px;
 
-background:linear-gradient(
-180deg,
-#d8c5a2 0%,
-#ccb892 55%,
-rgba(204,184,146,.35) 85%,
-rgba(0,0,0,0) 100%
-);
-
+background:#d8c5a2;
 backdrop-filter:blur(10px);
 
 z-index:9999;
