@@ -278,7 +278,61 @@ padding:40px 20px;
 .collections{
 padding:60px 20px;
 }
+@media screen and (max-width:768px){
 
+header{
+padding:15px 20px;
+}
+
+nav{
+display:none;
+}
+
+.hero{
+flex-direction:column;
+padding-top:120px;
+}
+
+.left,
+.right,
+.content{
+width:100%;
+text-align:center;
+}
+
+.hero img{
+max-width:220px;
+}
+
+.content h1{
+font-size:48px;
+}
+
+.heroLogo{
+width:220px;
+}
+
+.buttons{
+flex-direction:column;
+gap:15px;
+}
+
+.mainBtn,
+.secondBtn{
+width:220px;
+margin:auto;
+}
+
+.cards{
+grid-template-columns:1fr;
+}
+
+.numbers{
+grid-template-columns:1fr;
+padding:40px 20px;
+}
+
+}
 footer{
 padding:40px 20px;
 }
