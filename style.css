@@ -71,19 +71,32 @@ color:#fff;
 }
 
 .btn{
-padding:14px 28px;
-border:1px solid #d8c5a2;
-text-decoration:none;
+
+background:#111;
+
 color:#d8c5a2;
-border-radius:6px;
+
+padding:16px 34px;
+
+border-radius:10px;
+
+text-decoration:none;
+
+font-weight:600;
+
+border:none;
+
 transition:.3s;
+
 }
 
 .btn:hover{
-background:#d8c5a2;
-color:black;
-}
 
+background:white;
+
+color:black;
+
+}
 .hero{
 min-height:100vh;
 display:flex;
